@@ -1,6 +1,6 @@
 <body>
     <div align="center">
-        <a href="https://felipe0424.github.io/pagina-receita/" target="_blank">
+        <a href="https://pagina-receita-eta.vercel.app/" target="_blank">
         <img src="assets/Thumbnail.svg" alt="Thumbnail" width="auto">
         </a>
     </div>
