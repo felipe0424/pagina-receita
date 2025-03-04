@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Alice", serif;
+  font-style:normal;
+  line-height: 150%;
+}
+
+body {
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+}
+
+main {
+  margin: 24px;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  border-radius: 24px;
+  margin: 48px auto;
+}
+
+#about p+p{
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+#ingredients h2 {
+  margin-bottom: 4px;
+}
+
+#preparation h2 {
+  margin: 24px 0 4px 0;
+}
+
+img {
+  border-radius: 16px;
+}
+
+h1 {
+  margin-bottom: 4px;
+  line-height: 140%;
+  font-size: 40px;
+  color: #291B1A;
+}
+
+h2 {
+  line-height: 120%;
+  font-size: 24px;
+  color: #291B1A;
+}
+
+p {
+  line-height: 130%;
+  font-size: 16px;
+  color: #573A37;
+}
+
+li {
+  margin-left: 24px;
+  line-height: 150%;
+  font-size: 16px;
+  color: #573A37;
+}
+
+footer{
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #F0E8C2;
+  padding: 0 0 48px 0;
+}
+
+.coracao {
+  vertical-align:middle;
+}
+
+@media screen and (max-width: 700px) {  
+
+  body {
+    background-color: #F0E8C2;
+  }
+  
+  main {
+    margin: 8px;
+  }
+  
+  #page {
+    box-sizing: border-box;
+    width: auto;
+    padding: 8px;
+    align-items: center;
+    background-color: #F0E8C2;
+    border-radius: 0px;
+    margin: 0;
+  }
+  
+  #about p+p{
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+  
+  #ingredients h2 {
+    margin-bottom: 4px;
+  }
+  
+  #preparation h2 {
+    margin: 24px 0 4px 0;
+  }
+  
+  img {
+    border-radius: 16px;
+    width: auto;
+  }
+  
+  h1 {
+    margin-bottom: 4px;
+    line-height: 140%;
+    font-size: 40px;
+    color: #291B1A;
+  }
+  
+  h2 {
+    line-height: 120%;
+    font-size: 24px;
+    color: #291B1A;
+  }
+  
+  p {
+    line-height: 130%;
+    font-size: 16px;
+    color: #573A37;
+  }
+  
+  li {
+    margin-left: 24px;
+    line-height: 150%;
+    font-size: 16px;
+    color: #573A37;
+  }
+  
+  footer{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #F0E8C2;
+    padding: 0 0 48px 0;
+  }
+  
+  .coracao {
+    vertical-align:middle;
+  }
+}
